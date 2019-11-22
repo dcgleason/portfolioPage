@@ -1,28 +1,5 @@
-// $(document).ready(function () {
-//     $('menu-toggler').on('click', function(){
-//         $(this).toggleClass('open');
-//         $('.top-nav').toggleClass('open');
-//     });
-
-//     $('nav a[href*="#]').on('click', function(){
-//         $('html, body').animate(keyframes:{
-//             scrollTop: 0
-//         } options 2000);
-//         })
-//     }       
-//     $('#up').on('click', function(){
-//         $('html, body').animate(keyframes:{
-//             scrollTop: 0
-//         }, options 2000);
-//         });
-   
-// });
-
 
 var theToggle = document.getElementById('toggle');
-
-// based on Todd Motto functions
-// https://toddmotto.com/labs/reusable-js/
 
 // hasClass
 function hasClass(elem, className) {
@@ -65,6 +42,6 @@ theToggle.onclick = function() {
 
 $('#up').click(function() {      // When arrow is clicked
     $('body,html').animate({
-        scrollTop : 0                       // Scroll to top of body
+        scrollTop : 0            // Scroll to top of body
     }, 500);
 });
