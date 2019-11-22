@@ -96,7 +96,11 @@ a{
 }
 
 .has-margin-left{
-    margin-left: 5rem;
+    margin-left: 3rem;
+}
+
+.has-margin-right{
+    margin-right: 3rem;
 }
 
 
