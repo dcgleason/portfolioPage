@@ -359,6 +359,10 @@ body { margin-top: 3em; background: #eee; color: #555; font-family: "Open Sans",
     flex: 1;
 }
 
+.about-details p{
+    margin-left: 1rem;
+}
+
 .social-media{
     margin-top: 5rem;
     margin-left: 10em;
